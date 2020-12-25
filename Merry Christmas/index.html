@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet"> <link rel="stylesheet" href="css/style.css">
+        
+        <title>Merry Christmas</title>
+    </head>
+    <body>
+        <section>
+            <div class="box">
+                <div class="circle">
+                    <h2>Merry <br>Christmas</h2>
+                </div>
+            </div>
+        </section>
+        <script>
+            function bubble(){
+                var count = 200;
+                var section = document.querySelector('section');
+                var i =0;
+                while(i< count){
+                    var bubbles = document.createElement('i');
+                    var x = Math.floor(Math.random() * window.innerWidth);
+                    var y = Math.floor(Math.random() * window.innerHeight);
+                    var size = Math.random() * 10;
+                    bubbles.style.left = x+'px';
+                    bubbles.style.top = y+'px';
+                    bubbles.style.width = 1 + size+'px';
+                    bubbles.style.height = 1+size+'px';
+
+                    bubbles.style.animationDuration = 5+size+'s';
+                    bubbles.style.animationDelay = 5+size+'s';
+
+                    section.appendChild(bubbles);
+                    i++;
+
+                }
+            }
+            bubble();
+        </script>
+    </body>
+</html>

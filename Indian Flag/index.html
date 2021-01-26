@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet"> <link rel="stylesheet" href="css/style.css">
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Indian Flag</title>
+    </head>
+    <body>
+        <section>
+            <div class="container">
+                <img src='./ashok.png' alt="Ashok Chakra" class="chakra">
+            </div>
+        </section>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script> <script>
+            for(let i=0;i<=200;i++){
+                let bars = document.createElement('span');
+                document.querySelector('.container').appendChild(bars);
+
+            }
+
+            TweenMax.from('.container span',{
+                transform:'translateY(1000px)',
+                zIndex:100,
+                delay:1,
+                stagger:{
+                    from:"random",
+                    amount:10
+                }
+            })
+
+            TweenMax.from('.chakra ',0.5,{
+                opacity : 0,
+                delay : 11.5,
+            })
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="css/style.css">
+
+        <title>Testimonial</title>
+    </head>
+    <body>
+        <section>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                        <div class="testimonialBox">
+                            <img src="images/quote.svg" class="quote">
+                            <div class="content">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio vero, eius quia iusto hic officia nesciunt odit sint rerum quibusdam! Quisquam, nisi. Accusantium ea harum esse exercitationem ad pariatur itaque.</p>
+                                <div class="details">
+                                    <div class="imgBx">
+                                        <img src="images/User1.jfif">
+
+                                    </div>
+                                    <h3> Mr Abc<br/>
+                                    <span>Creative Designer</span>
+                                </h3>
+                                </div>
+                            </div>
+                        </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="testimonialBox">
+                        <img src="images/quote.svg" class="quote">
+                        <div class="content">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio vero, eius quia iusto hic officia nesciunt odit sint rerum quibusdam! Quisquam, nisi. Accusantium ea harum esse exercitationem ad pariatur itaque.</p>
+                            <div class="details">
+                                <div class="imgBx">
+                                    <img src="images/User2.png">
+
+                                </div>
+                                <h3> Mrs Abc<br/>
+                                <span>Creative Designer</span>
+                            </h3>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+
+
+              <div class="swiper-slide">
+                <div class="testimonialBox">
+                    <img src="images/quote.svg" class="quote">
+                    <div class="content">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio vero, eius quia iusto hic officia nesciunt odit sint rerum quibusdam! Quisquam, nisi. Accusantium ea harum esse exercitationem ad pariatur itaque.</p>
+                        <div class="details">
+                            <div class="imgBx">
+                                <img src="images/User3.jfif">
+
+                            </div>
+                            <h3> Mr Def<br/>
+                            <span>Creative Designer</span>
+                        </h3>
+                        </div>
+                    </div>
+                </div>
+          </div>
+
+
+                </div>
+              </div>
+        </section>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+              effect: 'coverflow',
+              grabCursor: true,
+              centeredSlides: true,
+              slidesPerView: 'auto',
+              coverflowEffect: {
+                rotate: 0,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+              },
+              loop:true,
+            });
+          </script>
+    </body>
+</html>

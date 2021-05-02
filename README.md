@@ -2,7 +2,7 @@
 
 Sr.No  | Folder Name  | UI
 ------- | ------------ | -------------
-1 | Calculator Glass Effect  | Content Cell
+1 | Calculator Glass Effect  | <a href="./Screenshots/Calculator.gif" > Link </a>
 2 | Card Gradient Border  | Content Cell
 3 | Card Glass Effect  | Content Cell
 4 | Card Hover Effect  | Content Cell

@@ -6,7 +6,7 @@ Sr.No  | Folder Name  | UI Links
 2 | Card Gradient Border  | <a href="./Screenshots/Card-GradiendBorder.gif" > Link </a>
 3 | Card Glass Effect  | <a href="./Screenshots/CardGlassEffect.gif" > Link </a>
 4 | Card Hover Effect  | <a href="./Screenshots/CardHoverEffect.gif" > Link </a>
-5 | Card Hover Effect - VI  | <a href="./Screenshots/CardHoverEffect-VI" > Link </a>
+5 | Card Hover Effect - VI  | <a href="./Screenshots/CardHoverEffect-VI.gif" > Link </a>
 6 | Card Hover Effect -II  | <a href="./Screenshots/CardHoverEffect-II.gif" > Link </a>
 7 | Card Hover Effect III  | <a href="./Screenshots/CardHoverEffect-III.gif" > Link </a>
 8 | Card Hover Effect IV  | <a href="./Screenshots/CardHoverEffect-IV.gif" > Link </a>
